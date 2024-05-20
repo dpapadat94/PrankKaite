@@ -4,8 +4,8 @@ function Home() {
       <div className="title"></div>
       <p className="sub">Local</p>
       <h1>
-        General Atlantic Aquires Charlotte based Service Logic. Corparote to
-        move to Atlanta{" "}
+        General Atlantic Aquires Charlotte based Service Logic. Corporote set
+        for move to Atlanta{" "}
       </h1>
       <p className="sub">BY JAMES CUTCHIN</p>
       <p className="sub">UPDATED MAY 20, 2024 3:24PM</p>
