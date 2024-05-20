@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: Ubuntu Sans;
+  max-width: 1100px;
+}
+.nav-container {
+}
+.nav-menu {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+}
+.border-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px black solid;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+.header img {
+  width: 25%;
+}
+
+.orange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(242, 136, 97);
+  gap: 10px;
+}
+.orange button {
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  border: none;
+  width: fit-content;
+  height: 35px;
+}
+.header h1 {
+  color: rgb(59, 112, 203);
+  font-family: "Grenze Gotish";
+  font-size: 1.5em;
+  margin: 0;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+.sub {
+  font-size: 12px;
+  font-weight: 600;
+  color: grey;
+}
+.body-text {
+  margin: 0 auto;
+  max-width: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body-text h1 {
+  font-size: 2.5em;
+}
+.ad {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ad img {
+  width: 80%;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  line-height: 1.5;
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+.body-text h1 {
+  margin: 10px;
+  text-align: center;
+}
+.body-text p {
+  margin: 5px;
+}
+.body-text img {
+  width: 80%;
+  margin-bottom: 20px;
+}
+.title {
+  line-height: 3;
+}
+.footer {
+  width: 100%;
+}
