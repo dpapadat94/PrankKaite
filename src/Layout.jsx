@@ -10,8 +10,10 @@ function Layout() {
         <div className="header">
           <NavLink className="nav-links" to="/">
             {" "}
-            <FaRegNewspaper />
-            Read Todays Edition
+            <div className="gone">
+              <FaRegNewspaper />
+              Read Todays Edition
+            </div>
           </NavLink>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/The_Charlotte_Observer_logo.png/797px-The_Charlotte_Observer_logo.png"
